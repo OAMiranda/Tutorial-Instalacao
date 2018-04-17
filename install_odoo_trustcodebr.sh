@@ -44,6 +44,7 @@ sudo apt-get install --no-install-recommends libjpeg-dev -y
 sudo apt-get install --no-install-recommends nodejs -y
 sudo apt-get install --no-install-recommends npm -y
 sudo apt-get install node-less -y
+npm config set strict-ssl false
 sudo npm install -g less
 sudo ln -s /usr/bin/nodejs /usr/bin/node
 
